@@ -1,0 +1,15 @@
+{"time":"2025-03-11T16:09:03.2999739+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\hause\\OneDrive\\01_Studium\\02_Master\\05_Masterarbeit\\01_PlayerDetection\\code\\wandb\\run-20250311_160903-nfkjknjf\\logs\\debug-core.log"}
+{"time":"2025-03-11T16:09:03.4280877+01:00","level":"INFO","msg":"created new stream","id":"nfkjknjf"}
+{"time":"2025-03-11T16:09:03.4280877+01:00","level":"INFO","msg":"handler: started","stream_id":"nfkjknjf"}
+{"time":"2025-03-11T16:09:03.4280877+01:00","level":"INFO","msg":"stream: started","id":"nfkjknjf"}
+{"time":"2025-03-11T16:09:03.4280877+01:00","level":"INFO","msg":"sender: started","stream_id":"nfkjknjf"}
+{"time":"2025-03-11T16:09:03.4280877+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nfkjknjf"}
+{"time":"2025-03-11T16:09:03.7287339+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T16:13:58.2179284+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-11T16:14:04.4732868+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/hauserthomas-universit-t-regensburg/YOLO12_PlayerDetection/nfkjknjf/file_stream"}
+{"time":"2025-03-11T16:14:04.4732868+01:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/hauserthomas-universit-t-regensburg/YOLO12_PlayerDetection/nfkjknjf/file_stream: {\"error\":\"run YOLO12_PlayerDetection/nfkjknjf not found while streaming file\"}"}
+{"time":"2025-03-11T16:14:19.1372486+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-11T16:14:19.4476957+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nfkjknjf was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-11T16:14:19.8432101+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-11T16:14:22.0707335+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nfkjknjf was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-11T16:14:26.7630631+01:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run nfkjknjf was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

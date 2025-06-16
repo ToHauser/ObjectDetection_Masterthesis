@@ -1,0 +1,14 @@
+100%|██████████| 39.0M/39.0M [00:03<00:00, 12.0MB/s]
+WandB tracking status: True
+[34m[1mtrain: [0mScanning C:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\dataset\50pc_Tile_Augment+300\train_final\labels.cache... 3486 images, 0 backgrounds, 0 corrupt: 100%|██████████| 3486/3486 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning C:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\dataset\50pc_Tile_Augment+300\valid\labels.cache... 335 images, 1 backgrounds, 0 corrupt: 100%|██████████| 335/335 [00:00<?, ?it/s]
+      1/220      21.5G      1.652      2.695      1.048        470        640:   4%|▎         | 4/109 [02:34<1:05:37, 37.50s/it]Exception ignored in: <generator object tqdm.__iter__ at 0x000001760609EB00>
+Traceback (most recent call last):
+  File "c:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\ball_env\Lib\site-packages\tqdm\std.py", line 1196, in __iter__
+    self.close()
+  File "c:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\ball_env\Lib\site-packages\tqdm\std.py", line 1265, in close
+    def close(self):
+
+KeyboardInterrupt:
+wandb: WARNING Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

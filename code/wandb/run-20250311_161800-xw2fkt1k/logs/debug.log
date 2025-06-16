@@ -1,0 +1,40 @@
+2025-03-11 16:18:00,189 INFO    MainThread:30976 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-11 16:18:00,189 INFO    MainThread:30976 [wandb_setup.py:_flush():67] Configure stats pid to 30976
+2025-03-11 16:18:00,190 INFO    MainThread:30976 [wandb_setup.py:_flush():67] Loading settings from C:\Users\hause\.config\wandb\settings
+2025-03-11 16:18:00,190 INFO    MainThread:30976 [wandb_setup.py:_flush():67] Loading settings from c:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\code\wandb\settings
+2025-03-11 16:18:00,190 INFO    MainThread:30976 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-11 16:18:00,190 INFO    MainThread:30976 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\code\wandb\run-20250311_161800-xw2fkt1k\logs\debug.log
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\code\wandb\run-20250311_161800-xw2fkt1k\logs\debug-internal.log
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000019DACFDD750>
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:init():761] calling init triggers
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:init():784] starting backend
+2025-03-11 16:18:00,191 INFO    MainThread:30976 [wandb_init.py:init():788] sending inform_init request
+2025-03-11 16:18:00,212 INFO    MainThread:30976 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-11 16:18:00,212 INFO    MainThread:30976 [wandb_init.py:init():803] backend started and connected
+2025-03-11 16:18:00,217 INFO    MainThread:30976 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-11 16:18:00,231 INFO    MainThread:30976 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'charmap' codec can't decode byte 0x8d in position 5509: character maps to <undefined>
+2025-03-11 16:18:00,231 INFO    MainThread:30976 [wandb_init.py:init():896] updated telemetry
+2025-03-11 16:18:00,237 INFO    MainThread:30976 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-11 16:18:00,673 INFO    MainThread:30976 [wandb_init.py:init():995] starting run threads in backend
+2025-03-11 16:18:00,895 INFO    MainThread:30976 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-11 16:18:00,895 INFO    MainThread:30976 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-11 16:18:00,896 INFO    MainThread:30976 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-11 16:18:00,896 INFO    MainThread:30976 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-11 16:18:00,901 INFO    MainThread:30976 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-11 19:21:06,344 INFO    MainThread:30976 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'curves/Precision-Recall(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Precision-Recall(B)', 'x-axis-title': 'Recall', 'y-axis-title': 'Precision'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Precision-Recall(B)_table'}], 'fields': []}]}]}}} None
+2025-03-11 19:21:06,604 INFO    MainThread:30976 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'curves/F1-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'F1-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'F1'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/F1-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-03-11 19:21:06,883 INFO    MainThread:30976 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'curves/Precision-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Precision-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'Precision'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Precision-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-03-11 19:21:07,134 INFO    MainThread:30976 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'curves/Recall-Confidence(B)') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'x', 'y': 'y', 'class': 'class'}, 'stringSettings': {'title': 'Recall-Confidence(B)', 'x-axis-title': 'Confidence', 'y-axis-title': 'Recall'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'curves/Recall-Confidence(B)_table'}], 'fields': []}]}]}}} None
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [wandb_run.py:_finish():2112] finishing run hauserthomas-universit-t-regensburg/YOLO12_PlayerDetection/xw2fkt1k
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-11 19:21:07,378 INFO    MainThread:30976 [wandb_run.py:_restore():2324] restore
+2025-03-11 19:21:07,379 INFO    MainThread:30976 [wandb_run.py:_restore():2330] restore done
+2025-03-11 19:21:14,389 INFO    MsgRouterThr:30976 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-11 19:21:14,389 INFO    MainThread:30976 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-11 19:21:14,390 INFO    MainThread:30976 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-11 19:21:14,391 INFO    MainThread:30976 [wandb_run.py:_footer_sync_info():3919] logging synced files

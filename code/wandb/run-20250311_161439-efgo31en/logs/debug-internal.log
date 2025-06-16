@@ -1,0 +1,10 @@
+{"time":"2025-03-11T16:14:39.4463276+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\hause\\OneDrive\\01_Studium\\02_Master\\05_Masterarbeit\\01_PlayerDetection\\code\\wandb\\run-20250311_161439-efgo31en\\logs\\debug-core.log"}
+{"time":"2025-03-11T16:14:39.5741851+01:00","level":"INFO","msg":"created new stream","id":"efgo31en"}
+{"time":"2025-03-11T16:14:39.5741851+01:00","level":"INFO","msg":"stream: started","id":"efgo31en"}
+{"time":"2025-03-11T16:14:39.5741851+01:00","level":"INFO","msg":"handler: started","stream_id":"efgo31en"}
+{"time":"2025-03-11T16:14:39.5741851+01:00","level":"INFO","msg":"sender: started","stream_id":"efgo31en"}
+{"time":"2025-03-11T16:14:39.5741851+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"efgo31en"}
+{"time":"2025-03-11T16:14:39.9279483+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T16:17:25.1925858+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-11T16:17:43.994505+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-11T16:17:43.9999478+01:00","level":"INFO","msg":"Pausing system monitor"}

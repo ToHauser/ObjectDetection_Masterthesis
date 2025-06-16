@@ -1,0 +1,16 @@
+{"time":"2025-03-11T12:51:20.9222552+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\hause\\OneDrive\\01_Studium\\02_Master\\05_Masterarbeit\\01_PlayerDetection\\code\\wandb\\run-20250311_125120-5uygbrf4\\logs\\debug-core.log"}
+{"time":"2025-03-11T12:51:21.0444007+01:00","level":"INFO","msg":"created new stream","id":"5uygbrf4"}
+{"time":"2025-03-11T12:51:21.0444007+01:00","level":"INFO","msg":"stream: started","id":"5uygbrf4"}
+{"time":"2025-03-11T12:51:21.0444007+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T12:51:21.0444007+01:00","level":"INFO","msg":"sender: started","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T12:51:21.0444007+01:00","level":"INFO","msg":"handler: started","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T12:51:21.3229088+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T14:28:55.7574312+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T14:28:55.7579509+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T14:28:56.7749654+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_5uygbrf4_model","runtime_seconds":1.9512827000000001,"subtasks":[{"desc":"best.pt","runtime_seconds":1.2445992,"progress":"3.4MB/5.3MB"}]},{"desc":"uploading artifact run-5uygbrf4-curvesPrecision-RecallB_table","runtime_seconds":1.7448364},{"desc":"uploading artifact run-5uygbrf4-curvesF1-ConfidenceB_table","runtime_seconds":1.5424045},{"desc":"uploading artifact run-5uygbrf4-curvesPrecision-ConfidenceB_table","runtime_seconds":1.2902151},{"desc":"uploading artifact run-5uygbrf4-curvesRecall-ConfidenceB_table","runtime_seconds":1.0376519,"subtasks":[{"desc":"curves/Recall-Confidence(B)_table.table.json","runtime_seconds":0.2188913,"progress":"10.2KB/10.2KB"}]}],"total_operations":5}}
+{"time":"2025-03-11T14:28:58.2879098+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T14:28:59.5961918+01:00","level":"INFO","msg":"stream: closing","id":"5uygbrf4"}
+{"time":"2025-03-11T14:28:59.5961918+01:00","level":"INFO","msg":"handler: closed","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T14:28:59.5961918+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T14:28:59.5961918+01:00","level":"INFO","msg":"sender: closed","stream_id":"5uygbrf4"}
+{"time":"2025-03-11T14:28:59.5961918+01:00","level":"INFO","msg":"stream: closed","id":"5uygbrf4"}

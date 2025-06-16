@@ -1,0 +1,28 @@
+C:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\code\Yolo12_PlayerDetection\Drone_augmentation_3130\015conf_box_cls_603010Drone
+
+             Class          Images      Instances Box(P          R      mAP50    mAP50-95): 
+                   all        335       6491      0.913      0.688      0.809      0.486
+                  ball        250        254      0.911      0.362      0.643      0.336
+                player        335       5571      0.961      0.895      0.939      0.617
+               referee        301        666      0.866      0.806      0.845      0.505
+
+
+Problem: Ball Detection
+
+Yolo12_PlayerDetection\Tiles_Drone_augmentation_3130\balltiles_015conf_box_cls_Drone\weights\best.pt
+                Class     Images  Instances      Box(P          R      mAP50  mAP50-95):
+                   all        335       2977      0.928      0.878      0.902      0.566
+                  ball        123        124       0.91      0.738      0.792      0.448
+                player        332       2630      0.951      0.967      0.982      0.651
+               referee        203        223      0.922      0.928      0.933      0.597
+
+
+Yolo12m_PlayerDetection\Tiles_Drone_augmentation_3130\12s_32batch_balltiles_055iou\weights\best.pt
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 
+                   all        335       2977       0.93      0.875      0.921      0.618
+                  ball        123        124      0.891      0.726      0.838      0.532
+                player        332       2630      0.962      0.965      0.981      0.686
+               referee        203        223      0.937      0.933      0.945      0.636
+
+

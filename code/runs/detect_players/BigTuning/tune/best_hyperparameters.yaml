@@ -1,0 +1,14 @@
+# 10/10 iterations complete ✅ (12277.75s)
+# Results saved to runs\detect_players\tune
+# Best fitness=0.7474 observed at iteration 2
+# Best fitness metrics are {'metrics/precision(B)': 0.96609, 'metrics/recall(B)': 0.9125, 'metrics/mAP50(B)': 0.9762, 'metrics/mAP50-95(B)': 0.72198, 'val/box_loss': 0.75127, 'val/cls_loss': 0.3951, 'val/dfl_loss': 0.79088, 'fitness': 0.7474}
+# Best fitness model is runs\detect_players\train5
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.01
+weight_decay: 0.00053
+degrees: 0.0
+scale: 0.5
+shear: 0.0
+flipud: 0.0
+fliplr: 0.5

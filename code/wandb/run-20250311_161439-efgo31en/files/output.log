@@ -1,0 +1,4 @@
+WandB tracking status: True
+[34m[1mtrain: [0mScanning C:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\dataset\50pc_Tile_Augment+300\train_final\labels.cache... 3486 images, 0 backgrounds, 0 corrupt: 100%|██████████| 3486/3486 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning C:\Users\hause\OneDrive\01_Studium\02_Master\05_Masterarbeit\01_PlayerDetection\dataset\50pc_Tile_Augment+300\valid\labels.cache... 335 images, 1 backgrounds, 0 corrupt: 100%|██████████| 335/335 [00:00<?, ?it/s]
+      1/220      11.2G      1.588      2.376      1.041        295        640:   7%|▋         | 15/218 [01:14<16:49,  4.97s/it]

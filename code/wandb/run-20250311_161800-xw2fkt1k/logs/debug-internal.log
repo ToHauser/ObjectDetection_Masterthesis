@@ -1,0 +1,16 @@
+{"time":"2025-03-11T16:18:00.2153205+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\hause\\OneDrive\\01_Studium\\02_Master\\05_Masterarbeit\\01_PlayerDetection\\code\\wandb\\run-20250311_161800-xw2fkt1k\\logs\\debug-core.log"}
+{"time":"2025-03-11T16:18:00.3348107+01:00","level":"INFO","msg":"created new stream","id":"xw2fkt1k"}
+{"time":"2025-03-11T16:18:00.3348107+01:00","level":"INFO","msg":"stream: started","id":"xw2fkt1k"}
+{"time":"2025-03-11T16:18:00.3348107+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T16:18:00.3348107+01:00","level":"INFO","msg":"sender: started","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T16:18:00.3348107+01:00","level":"INFO","msg":"handler: started","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T16:18:00.6786452+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T19:21:07.3798225+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T19:21:07.3805565+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T19:21:08.3937832+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_xw2fkt1k_model","runtime_seconds":2.0709225,"subtasks":[{"desc":"best.pt","runtime_seconds":1.3569859,"progress":"3.2MB/18.1MB"}]},{"desc":"uploading artifact run-xw2fkt1k-curvesPrecision-RecallB_table","runtime_seconds":1.6918747},{"desc":"uploading artifact run-xw2fkt1k-curvesF1-ConfidenceB_table","runtime_seconds":1.5511447},{"desc":"uploading artifact run-xw2fkt1k-curvesPrecision-ConfidenceB_table","runtime_seconds":1.3013052},{"desc":"uploading artifact run-xw2fkt1k-curvesRecall-ConfidenceB_table","runtime_seconds":1.0344144,"subtasks":[{"desc":"curves/Recall-Confidence(B)_table.table.json","runtime_seconds":0.3194733,"progress":"10.1KB/10.1KB"}]}],"total_operations":5}}
+{"time":"2025-03-11T19:21:13.1310334+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T19:21:14.3959669+01:00","level":"INFO","msg":"stream: closing","id":"xw2fkt1k"}
+{"time":"2025-03-11T19:21:14.3959669+01:00","level":"INFO","msg":"handler: closed","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T19:21:14.3959669+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T19:21:14.3959669+01:00","level":"INFO","msg":"sender: closed","stream_id":"xw2fkt1k"}
+{"time":"2025-03-11T19:21:14.3959669+01:00","level":"INFO","msg":"stream: closed","id":"xw2fkt1k"}

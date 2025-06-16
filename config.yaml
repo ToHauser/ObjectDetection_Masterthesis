@@ -1,0 +1,13 @@
+train: "C:/Users/hause/OneDrive/01_Studium/02_Master/05_Masterarbeit/01_PlayerDetection/dataset/TileAugment+Penalty/train/images"
+val: "C:/Users/hause/OneDrive/01_Studium/02_Master/05_Masterarbeit/01_PlayerDetection/dataset/TileAugment+Penalty/valid/images"
+test: "C:/Users/hause/OneDrive/01_Studium/02_Master/05_Masterarbeit/01_PlayerDetection/dataset/TileAugment+Penalty/test/images"
+
+nc: 3
+names: ['ball', 'player', 'referee']
+
+roboflow:
+  workspace: footballai-xndiy
+  project: footballai_master_thesis
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/footballai-xndiy/footballai_master_thesis/dataset/5
