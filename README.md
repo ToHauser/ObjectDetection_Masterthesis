@@ -1,26 +1,24 @@
 # PlayerDetection - FootballAI
 
-Dieses Repository enthält die finale Konfiguration zur Objekterkennung im Rahmen der Masterarbeit *FootballAI*. Ziel ist die robuste Detektion der Objektklassen `player`, `referee` und `ball` auf visuellem Videomaterial aus dem Amateurfußballbereich.
+This repository contains the final object detection configuration developed for the Master's thesis *FootballAI*. The objective is the robust detection of the object classes `player`, `referee`, and `ball` in amateur football footage.
 
-## 📦 Inhalt
+## 📦 Repository Structure
 
-- `config.yaml` – Trainingskonfiguration für YOLOv12s (Ultralytics)
-- `dataset/` – Pfadstruktur und Annotationen im YOLO-Format
-- `train.py` – Trainingsskript (Ultralytics-kompatibel)
-- `inference.py` – Beispiel für Inferenz auf neuen Videos
-- `README.md` – Diese Beschreibung
+- `config.yaml` – Training configuration for YOLOv12s (Ultralytics), including class definitions and dataset paths
+- `dataset/` – Directory structure and YOLO-format annotations ([detailed explanation in `dataset/README.md`](dataset/README.md))
+- `train.ipynb` – Training notebook compatible with the Ultralytics framework
+- `README.md` – Repository documentation
 
-## 🧠 Modell
+## 🧠 Model Architecture
 
-Das verwendete Modell basiert auf `YOLOv12s` und wurde mittels Transfer Learning auf einem eigens erstellten Drohnen-Datensatz trainiert. Als Basismodell diente ein auf dem COCO-Datensatz vortrainiertes YOLO-Modell.
+The detection model is based on `YOLOv12s`, fine-tuned via transfer learning using a custom drone-based dataset. The base model was pre-trained on the COCO dataset and adapted for football-specific object categories.
 
-## 📊 Trainingsdaten
+## 📊 Training Data Composition
 
-- 922 Bilder aus Drohnenvideo (schräge Aufsicht, 10 m Höhe)
-- 38 manuell annotierte Elfmeterszenen
-- 754 Bilder aus Broadcast-Set von Skalski et al.
+- 922 images from drone footage (angled top-down perspective at ~10 meters altitude)
+- 38 manually annotated penalty scene images
+- 754 broadcast images from the public dataset by Skalski et al.
 
-Annotationen im standardisierten YOLO-Format.
+All annotations follow the standardized YOLO format.
 
-Roboflow-Link zum vollständigen Datensatz: [Datensatz anzeigen](https://universe.roboflow.com/footballai-xndiy/masterthesis_dataset)
-
+🔗 [View full dataset on Roboflow](https://universe.roboflow.com/footballai-xndiy/masterthesis_dataset)
