@@ -11,8 +11,9 @@ This repository contains the dataset preparation workflow for the FootballAI obj
 - Contains all raw training images.
 - Composition: **50% own annotated data** and **50% broadcast data**.
 - For clarity of origin, two additional folders are maintained:
-  - `raw_training_images/own_data/` — stores the 50% own annotated data.
-  - `raw_training_images/broadcast_data/` — stores the 50% broadcast data.
+  - `raw_training_images/own_data/` — stores the 50% own annotated data. [Custome Drone Dataset ](https://universe.roboflow.com/footballai-xndiy/drohnenvideos/dataset/6)
+  - `raw_training_images/broadcast_data/` — stores the 50% broadcast data. [Skalski Broadcast Dataset](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1)
+
 - These two folders are merged into:
   - `raw_training_images/images/` — used for further processing.
 
