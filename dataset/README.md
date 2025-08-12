@@ -32,18 +32,16 @@ Data augmentation is performed using **Roboflow** and custom scripts.
 Contains the processed images ready for augmentation.
 
 #### `roboflow_images/tiles_resized/`
-- Selected **tile images** (at least one object per tile).
-- Matches Roboflow project:  
+- Selected **tile images** (at least one ball object per tile). These images serve as input for the augmentation on Roboflow:
   [Tile Augmentation Dataset (augmented ×3)](https://universe.roboflow.com/footballai-xndiy/1-2-tileaugmentation/dataset/1)
 
 #### `roboflow_images/original_resized/`
-- Selected **original full-frame images**.
-- Matches Roboflow project:  
+- Selected **original full-frame images**. These images serve as input for the augmentation on Roboflow:
   [Full-Frame Augmentation Dataset (augmented ×3)](https://universe.roboflow.com/footballai-xndiy/2-2-originalaugmentation/dataset/1)
 
 #### `01_Penalty_Images/`
 - Penalty-scene images (augmented ×8 using custom scripts due to Roboflow limitations).
-- Dataset available in this repository folder.
+- Dataset available in this repository folder: [Penalty Images Ordner](https://github.com/ToHauser/ObjectDetection_Masterthesis/tree/main/dataset/01_Penalty_Images)
 
 ---
 
@@ -59,5 +57,13 @@ Augmentation is applied separately to each image category to increase variabilit
 - **Tile images:** ×3 augmentation ([link](https://universe.roboflow.com/footballai-xndiy/1-2-tileaugmentation/dataset/1))  
 - **Full-frame images:** ×3 augmentation ([link](https://universe.roboflow.com/footballai-xndiy/2-2-originalaugmentation/dataset/1))  
 - **Penalty images:** ×8 augmentation (local script, see `01_Penalty_Images/` folder)  
+
+**Final dataset size:**  
+After preprocessing and augmentation, the training set comprised:  
+- 1,425 augmented tile images  
+- 2,061 augmented full-frame images  
+- 208 augmented penalty-scene images  
+
+In total, the augmented training set contains **3,694 images**. Validation and test sets remain unaugmented.
 
 ---
